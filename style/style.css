@@ -342,18 +342,22 @@ header ul li a:hover {
 .link-to-project {
     grid-area: main-project;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 16px;
 }
 
 .field-project img {
     border-radius: 8px;
-    width: 30%;
+    width: 80%;
     height: 150px;
+    order: 2;
 }
 
 .field-text-project {
-    width: 70%;
+    width: 100%;
     margin-top: 3px;
+    order: 1;
 }
 
 .field-text-project h3 {
